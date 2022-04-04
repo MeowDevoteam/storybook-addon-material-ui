@@ -1,3 +1,3 @@
 export function managerEntries(entry = []) {
-  return [...entry, require.resolve("./register")]; //👈 addon implementation
+  return [...entry, require.resolve("./register")]; // 👈 addon implementation
 }
